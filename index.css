@@ -1,0 +1,30 @@
+body 
+
+.conteiner {
+    position: fixed;     /* Fixa o contêiner na tela (não rola com a página) */
+    top: 30px;           /* Define a distância de 20px do topo da janela */
+    right: 50px;         /* Define a distância de 50px da borda direita da janela */
+    display: flex;       /* Ativa o layout flexível para alinhar os itens lado a lado */
+    gap: 80px;           /* Define 40px de espaço entre os itens filhos (ex: spans) */
+
+}
+
+
+.conteiner a {
+    text-decoration: none; /* por que tem que selecior o a parar funcionar */
+    padding: 10px 20px; 
+    transition: background-color 0.4s;
+    border-radius:12%;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+}
+
+
+.conteiner a:hover {
+   background-color: rgba(61, 179, 81, 0.589);
+   
+}
+
+
+
