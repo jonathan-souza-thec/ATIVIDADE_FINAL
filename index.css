@@ -1,12 +1,14 @@
-body 
+body{
+
+}
 
 .conteiner {
     position: fixed;     /* Fixa o contêiner na tela (não rola com a página) */
     top: 30px;           /* Define a distância de 20px do topo da janela */
     right: 50px;         /* Define a distância de 50px da borda direita da janela */
     display: flex;       /* Ativa o layout flexível para alinhar os itens lado a lado */
-    gap: 80px;           /* Define 40px de espaço entre os itens filhos (ex: spans) */
-
+    gap: 40px;           /* Define 40px de espaço entre os itens filhos (ex: spans) */
+    
 }
 
 
@@ -26,5 +28,78 @@ body
    transform: translateY(-5px);
 }
 
+.texto1 {
+    font-size: 45px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: -18px;
+    
+    
 
+}
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: justify;
+
+
+}
+
+.texto3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+.texto3 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 140%;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 140%;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 20px; /* aumenta o espaço entre os tópicos */
+}
+
+
+h4{
+   font-family: Arial, Helvetica, sans-serif;
+font-size: 30px; 
+}
+
+.Img1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+.Img2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Img3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  
+}
 
