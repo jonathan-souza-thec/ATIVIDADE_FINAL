@@ -1,6 +1,8 @@
+
+
 section.slider{
     margin: 0 auto;
-    width: 80%;
+    width: 79%;
     height: auto;
     padding: 0 ;
     overflow: hidden;
@@ -11,6 +13,7 @@ section.slider{
     width: 400%;
     height: auto;
     display: flex;
+    transition: 0.5s;
     
 }
 
@@ -85,3 +88,4 @@ section.slider{
     
     
 }
+
