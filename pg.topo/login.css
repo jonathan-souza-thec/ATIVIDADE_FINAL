@@ -1,0 +1,56 @@
+/* Estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #688ec7;
+}
+
+/* Estilo da caixa de login */
+.login-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Título */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Rótulos dos campos */
+.login-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Campos de entrada */
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Botão */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Efeito no botão ao passar o mouse */
+.login-box button:hover {
+  background-color: #2980b9;
+}
