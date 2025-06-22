@@ -78,14 +78,14 @@ body::before {
 
 
 .login-button {
-  background-color: rgba(61, 179, 81, 0.2) !important; 
+  background-color: rgba(61, 179, 81, 0.2) ; 
   border: 1px solid rgba(61, 179, 81, 0.8);             
   font-weight: bold;                                 
 }
 
 .login-button:hover {
-  background-color: rgba(61, 179, 81, 0.8) !important;
-  color: white !important;                           
+  background-color: rgba(61, 179, 81, 0.8) ;
+  color: white ;                           
 }
 
 .texto1 {
